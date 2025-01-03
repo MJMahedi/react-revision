@@ -1,16 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Clouser from "./components/Clouser";
+import More from "./components/More";
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
     <>
-     <h1>React Revision</h1>
-     <h2>React Revision</h2>
-     <h3>React Revision</h3>
+      <div>
+        <h1 className="text-center text-3xl font-bold underline">React Revision</h1>
+        <Clouser></Clouser>
+        <More></More>
+      </div>
     </>
   )
 }
