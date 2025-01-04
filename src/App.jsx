@@ -4,7 +4,10 @@ import CounterComponent from "./components/CounterComponent";
 // import "./practice/practice";
 // import "./practice/Closure/OuterInnerFunction";
 // import "./practice/Closure/PrivateVariable";
-import "./practice/Closure/CountDownTimer"
+// import "./practice/Closure/CountDownTimer"
+// import "./practice/Currying/simpleCurrying";
+// import "./practice/Currying/powerExponent"
+import "./practice/Currying/discountCurrying"
 
 
 

@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 
 const ClosureExamples = () => {
   const [selectedExample, setSelectedExample] = useState(null); // State to track the selected example
-
   // Examples with code and description
   const examples = {
     Example1: {
@@ -32,7 +31,7 @@ console.log(counter()); // Output: 2
         return `Counter 1 : ${counter()}, Counter 2 : ${counter()} `;
       },
     },
-    Example_1_Mine: {
+    Practice_1_: {
       description: 'Simple Counter Example',
       code: `
 function createCounter() {
@@ -86,7 +85,7 @@ console.log(triple(5)); // Output: 15
         return `Double of 5: ${double(5)}, Triple of 5: ${triple(5)}`;
       },
     },
-    Example_2_Mine: {
+    Practice_2_: {
       description: 'Function with Parameters',
       code: `
 function multiplier(factor) {
@@ -112,7 +111,7 @@ console.log(quintuple(5)); // Output: 25
         return `Quadruple of 5 : ${quadruple(5)}, Quintuple of 5 : ${quintuple(5)}`;
       },
     },
-    Example4: {
+    Example3: {
       description: 'Private Variable Example',
       code: `
 function secretKeeper(secret) {
@@ -138,7 +137,7 @@ console.log(mySecret.getSecret()); // Output: 'Closures are powerful!'
         return `Secret: ${mySecret.getSecret()}`;
       },
     },
-    Example_4_Mine: {
+    Practice_3_: {
       description: 'Private Variable Example',
       code: `
 function secretKeeper(secret) {
