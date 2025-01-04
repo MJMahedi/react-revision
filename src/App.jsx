@@ -1,6 +1,7 @@
 import Clouser from "./components/Clouser";
 import Counter_Mine from "./components/Counter_Mine";
 import CounterComponent from "./components/CounterComponent";
+import Currying from "./components/Currying";
 // import "./practice/practice";
 // import "./practice/Closure/OuterInnerFunction";
 // import "./practice/Closure/PrivateVariable";
@@ -25,6 +26,7 @@ function App() {
         
         {/* <CounterComponent></CounterComponent> */}
         <Counter_Mine></Counter_Mine>
+        <Currying></Currying>
       </div>
     </>
   )
