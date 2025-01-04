@@ -1,7 +1,8 @@
 import Clouser from "./components/Clouser";
 import Counter_Mine from "./components/Counter_Mine";
 import CounterComponent from "./components/CounterComponent";
-
+import "./practice/practice";
+import "./practice/Closure"
 
 function App() {
  
