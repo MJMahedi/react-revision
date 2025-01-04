@@ -1,8 +1,13 @@
 import Clouser from "./components/Clouser";
 import Counter_Mine from "./components/Counter_Mine";
 import CounterComponent from "./components/CounterComponent";
-import "./practice/practice";
-import "./practice/Closure"
+// import "./practice/practice";
+// import "./practice/Closure/OuterInnerFunction";
+import "./practice/Closure/PrivateVariable";
+
+
+
+
 
 function App() {
  
