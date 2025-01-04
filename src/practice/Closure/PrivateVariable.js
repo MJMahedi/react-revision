@@ -1,7 +1,6 @@
 console.log("Private Variable With Colsure");
 
 function bankAccount(initialBalance) {
-
     let balance = initialBalance;
     return {
         deposit(amount) {
@@ -24,13 +23,10 @@ function bankAccount(initialBalance) {
             // return `Initial Balance: ${initialBalance}`;
             console.log(`Initial Balance: ${initialBalance}`);
         }
-    };
-    // return `Your Main Balance is ${balance}`;
-    
+    };  
 }
 
 const MyBalanceIs = bankAccount(1000);
-// console.log(MyBalanceIs);
 // console.log(MyBalanceIs.getInitialBalance());
 MyBalanceIs.getInitialBalance();
 

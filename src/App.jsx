@@ -3,7 +3,8 @@ import Counter_Mine from "./components/Counter_Mine";
 import CounterComponent from "./components/CounterComponent";
 // import "./practice/practice";
 // import "./practice/Closure/OuterInnerFunction";
-import "./practice/Closure/PrivateVariable";
+// import "./practice/Closure/PrivateVariable";
+import "./practice/Closure/CountDownTimer"
 
 
 
