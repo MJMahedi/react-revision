@@ -15,7 +15,7 @@ function CounterComponent() {
 
     return (
         <div className='p-6'>
-            <h1 className="text-2xl font-bold mb-4">Counter Components</h1>
+            <h1 className="text-2xl font-bold mb-4">Closure Counter Components</h1>
             <p>Count : {count}</p>
             <button onClick={increment}>Increment</button>
 
