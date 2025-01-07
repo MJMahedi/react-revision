@@ -166,9 +166,9 @@ console.log(mySecret.getSecret()); // Output: 'with Closures which are very powe
   };
 
   return (
-    <div className="p-6">
-      <h1 className="text-2xl font-bold mb-4">Closure Examples</h1>
-      <div className="flex flex-col gap-4">
+    <div className="px-6">
+      <h1 className="text-2xl font-bold mb-2">Closure Examples</h1>
+      <div className="grid grid-cols-3 gap-4">
         {Object.keys(examples).map((example, index) => (
           <button
             key={index}
