@@ -10,6 +10,7 @@ import Currying from "./components/Currying";
 // import "./practice/Currying/simpleCurrying";
 // import "./practice/Currying/powerExponent"
 import "./practice/Currying/discountCurrying"
+import DigitalClock from './components/DigitalClock';
 // Create a Context 
 const UserContext = createContext();
 
@@ -52,6 +53,7 @@ const UserProfile = () => {
 
 const App = () => (
   <UserProvider>
+    <DigitalClock />
     <UserProfile />
     <Clouser></Clouser>
     {/* <CounterComponent></CounterComponent> */}
