@@ -11,6 +11,7 @@ import Currying from "./components/Currying";
 // import "./practice/Currying/powerExponent"
 import "./practice/Currying/discountCurrying"
 import DigitalClock from './components/DigitalClock';
+import TodoAppByMe from './components/TodoAppByMe';
 // Create a Context 
 const UserContext = createContext();
 
@@ -55,10 +56,13 @@ const App = () => (
   <UserProvider>
     <DigitalClock />
     <UserProfile />
-    <Clouser></Clouser>
+    <TodoAppByMe />
+    {/* <TodoApp /> */}
+
+    <Clouser />
     {/* <CounterComponent></CounterComponent> */}
-    <Counter_Mine></Counter_Mine>
-    <Currying></Currying>
+    <Counter_Mine />
+    <Currying />
   </UserProvider>
 )
 
